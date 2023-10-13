@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { UserProvider, useUserContext } from "./context/UserContext";
+import { UserProvider } from "./context/UserContext";
 
 import {
   HomePage,
@@ -16,7 +16,7 @@ import {
   Address
 } from "./components";
 const App = () => {
-  const { user, login } = useUserContext();
+  // const { user, login } = useUserContext();
 
   return (
     <>
