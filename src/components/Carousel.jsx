@@ -18,16 +18,16 @@ const Carousel = () => {
         }}
       >
         <SwiperSlide>
-          <img src={"../images/carousel_1.jpg"} />
+          <img src={"../images/carousel_1.jpg"} alt="abc" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={"../images/carousel_2.jpg"} />
+          <img src={"../images/carousel_2.jpg"} alt="abc" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={"../images/carousel_3.jpg"} />
+          <img src={"../images/carousel_3.jpg"} alt="abc" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={"../images/carousel_4.jpg"} />
+          <img src={"../images/carousel_4.jpg"} alt="abc" />
         </SwiperSlide>
       </Swiper>
       <div className="h-[50%] bg-gradient-to-b from-stone-900"></div>

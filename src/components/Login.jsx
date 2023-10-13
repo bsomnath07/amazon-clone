@@ -69,6 +69,7 @@ const Login = () => {
             <img
               className="h-[45px] w-[150px] m-2 ml-2"
               src={"../images/Amazon_logo.png"}
+              alt="abc"
             />
           </Link>
           <div className="w-full border border-zinc-200 p-6">

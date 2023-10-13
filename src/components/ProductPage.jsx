@@ -11,21 +11,33 @@ const ProductPage = () => {
   const [product, setProduct] = useState(null);
   const [quantity,setQuantity]=useState("1")
   const dispatch=useDispatch();
-  const getProduct = () => {
-    callAPI(`data/products.json`).then((productResults) => {
-      setProduct(productResults[id]);
-    });
-  };
+  useEffect(() => {
+    const getProduct = () => {
+      callAPI(`data/products.json`).then((productResults) => {
+        setProduct(productResults[id]);
+      });
+    };
+
+    getProduct(); // Call the function inside useEffect
+
+  }, [id]);
+
+  // const getProduct = () => {
+  //   callAPI(`data/products.json`).then((productResults) => {
+  //     setProduct(productResults[id]);
+  //   });
+
+ 
 const addQuantityToProduct = () => {
   setProduct(product.quantity = quantity)
   return product;
 }
 
 
-  useEffect(() => {
-    getProduct();
-  }, []);
-  if (!product?.title) return <h1> Loading Product ...</h1>;
+  // useEffect(() => {
+  //   getProduct();
+  // }, []);
+  if (!product?.title) return (<h1> Loading Product ...</h1>);
 
   return (
     product && (
@@ -33,7 +45,7 @@ const addQuantityToProduct = () => {
         <div className="min-w-[1000px] max-w-[1500px] m-auto">
           <div className="grid grid-cols-10 gap-3">
             <div className="col-span-3 bg-white p-8 rounded m-auto">
-              <img src={`${product.image}`} />
+              <img src={`${product.image}`} alt="abc"/>
             </div>
 
             <div className="col-span-5 p-4 rounded bg-white divide-y divide-gray-400">
