@@ -52,6 +52,7 @@ const Login = () => {
 
     if(storeEmail===email && storePassword===password){
       alert("logged in successfully");
+       localStorage.setItem("auth", true);
       login(storeUserName);
       console.log("you are logged in with profile name as", storeUserName);
       navigate("/"); 

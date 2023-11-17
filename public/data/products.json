@@ -193,5 +193,80 @@
         "price": 1039.00,
         "oldPrice": 1099.00,
         "badge": "seller"
+    },
+   
+        "14": {
+            "id": 14,
+            "title": "Newly launched by oneplus",
+            "image": "../images/home_grid_1.jpg",
+            "alt": "abc",
+            "price": 34.99,
+            "description":"OnePlus 11 5G (Eternal Green, 8GB RAM, 128GB Storage),Visit the OnePlus Store",
+            "brand": "OnePlus" 
+
+        },
+        "15": {
+            "id": 15,
+            "title": "adidas Sports shoe ",
+            "image": "../images/home_grid_2.jpg",
+            "alt": "abc",
+            "price": 500.99,
+            "description":"Adidas Men's Clinch-X M Running Shoe",
+            "brand": "Adidas" 
+        },
+        "16": {
+            "id": 16,
+            "title": "One plus new tab",
+            "image": "../images/home_grid_3.jpg",
+            "alt": "abc",
+            "price": 500.99,
+            "description":"OnePlus Pad Go 28.85cm (11.35 inch) 2.4K 7:5 Ratio ReadFit Eye Care LCD Display, Dolby Atmos Quad Speakers,Wi-Fi Only, 8GB RAM 128 GB ROM Expandable Up-to 1TB, Twin Mint Colour .. Visit the OnePlus Store",
+            "brand": "OnePlus"
+        },
+        "17": {
+            "id": 17,
+            "title": "mens casual shirt",
+            "image": "../images/home_grid_4.jpg",
+            "alt": "abc",
+            "price": 500.99,
+            "description":"Amazon Brand - Symbol Men's Casual Shirt",
+            "brand": "Amazon" 
+        },
+        "18": {
+            "id": 18,
+            "title": "Shop pet supplies",
+            "image": "../images/home_grid_5.jpg",
+            "alt": "abc",
+            "price": 500.99,
+            "description": "Pedigree Adult Dry Dog Food, Chicken & Vegetables, 3kg Pack",
+            "brand": "pedigree" 
+        },
+        "19": {
+            "id": 19,
+            "title": "Spring sale",
+            "image": "../images/home_grid_6.jpg",
+            "alt": "abc",
+            "price": 300.99,
+            "description":"truke Air Buds Lite True Wireless in Ear Earbuds with 10H Single Charge Playtime, Gaming Mode, ENC, AAC Codec, Bluetooth 5.1, IPX4 (Black)",
+            "brand": "Apple"
+        },
+        "20": {
+            "id": 20,
+            "title": "Echo Buds",
+            "image": "../images/home_grid_7.jpg",
+            "alt": "abc",
+            "price": 5000.99,
+            "brand": "Echo Sounds", 
+            "description":"echo Air Buds Lite True Wireless in Ear Earbuds with 10H Single Charge Playtime, Gaming Mode, ENC, AAC Codec, Bluetooth 5.1, IPX4 (Black)"
+            
+        },
+        "21": {
+            "id": 21,
+            "title": "Family Plan: 3 months free",
+            "image": "../images/home_grid_8.jpg",
+            "alt": "abc",
+            "price": 500.99,
+            "brand": "Amazon Prime", 
+            "description":"enjoy family plan by amazon music "
+        }
     }
-}

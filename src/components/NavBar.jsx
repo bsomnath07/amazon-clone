@@ -11,6 +11,7 @@ const NavBar = () => {
   const [showLogoutMenu, setShowLogoutMenu] = useState(false);
 
   const handleLogout = () => {
+    localStorage.setItem("auth",false);
     logout();
   };
 

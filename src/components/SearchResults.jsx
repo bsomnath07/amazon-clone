@@ -29,27 +29,7 @@ const SearchResults = () => {
 
     getSearchResults();
   }, [searchParams]);
-  // const getSearchResults=()=>{
-  // const searchTerm = searchParams.get("searchTerm");
-  // const category=searchParams.get("category");
 
-  // callAPI(`data/search.json`)
-  // .then((searchResults)=>{
-  // const categoryResults=searchResults[category];
-  // if(searchTerm){
-  // const results=categoryResults.filter(product=>product.title.toLowerCase().includes(searchTerm.toLowerCase()));
-  // setProducts(results);
-  // }
-  // else{
-  //   setProducts(categoryResults);
-  // }
-  // })
-
-  // }
-
-  // useEffect(()=>{
-  // getSearchResults();
-  // },[searchParams])
 
   return (
     <div className="min-w-[1200px] max-w-[1300px] m-auto">
@@ -61,7 +41,7 @@ const SearchResults = () => {
                 <div className="col-span-2 p-4 bg-gray-200">
                   <img
                     className="m-auto "
-                    src={product.image_small}
+                    src={product.image}
                     alt="abc"
                   />
                 </div>

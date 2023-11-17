@@ -17,4 +17,5 @@ export {default as Login} from "./Login";
 export {default as Registration} from "./Registration";
 export {default as ReturnAndOrder} from "./ReturnAndOrder"
 export {default as Address} from "./Address"
+export {default as Protected} from "./Protected"
 

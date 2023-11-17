@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
+import React, { useState, useEffect} from "react";
+import { useParams,Link,useNavigate} from "react-router-dom";
 import { callAPI } from "../utils/CallApi";
 import { ProductDetails } from "/";
 import {GB_CURRENCY } from '../utils/constants'
@@ -11,6 +11,7 @@ const ProductPage = () => {
   const [product, setProduct] = useState(null);
   const [quantity,setQuantity]=useState("1")
   const dispatch=useDispatch();
+ const navigate=useNavigate();
   useEffect(() => {
     const getProduct = () => {
       callAPI(`data/products.json`).then((productResults) => {
@@ -32,6 +33,15 @@ const addQuantityToProduct = () => {
   setProduct(product.quantity = quantity)
   return product;
 }
+
+// const handleAddToCart = () => {
+// const checkLoggedIn=localStorage.getItem("auth")
+//   if (checkLoggedIn) {
+//     dispatch(addToCart(addQuantityToProduct()));
+//   } else {
+//     navigate("/login"); 
+//   }
+// };
 
 
   // useEffect(() => {
@@ -59,7 +69,6 @@ const addQuantityToProduct = () => {
                          
             <div className="col-span-2 p-4 rounded bg-white">
               <div className="text-xl xl:text-2xl font-semibold text-red-700 text-right">{GB_CURRENCY.format(product.price)}</div>
-              <div className="text-base xl:text-lg font-semibold text-right">{GB_CURRENCY.format(product.oldPrice)}</div>
               <div className="text-sm xl:text-base font-semibold text-blue-500 mt-3">Free Returns</div>
               <div className="text-sm xl:text-base font-semibold text-blue-500 mt-1">Free Delivery</div>
               <div className="text-base xl:text-lg font-semibold text-green-700 ">In Stock</div>
@@ -77,7 +86,7 @@ const addQuantityToProduct = () => {
               </div>
               <div>
               <Link to={"/checkout"}>
-              <button onClick={()=> dispatch(addToCart(addQuantityToProduct()))} className="bg-yellow-400 p-3 text-xs xl:text-sm rounded 
+              <button  onClick={()=> dispatch(addToCart(addQuantityToProduct()))}  className="bg-yellow-400 p-3 text-xs xl:text-sm rounded 
               hover:bg-yellow-500 w-auto mt-2">Add To Cart</button>
               </Link>
               </div>

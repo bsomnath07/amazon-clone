@@ -50,5 +50,40 @@
     {
         "id" : 13,
         "title": "Apple iPhone 14 Pro - Deep Purple"
+    },
+    {
+        "id": 14,
+        "title": "Newly launched by oneplus"
+    },
+   {
+        "id": 15,
+        "title": "adidas sports shoes" 
+    },
+     {
+        "id": 16,
+        "title": "One plus new tab "
+    },
+   {
+        "id": 17,
+        "title": "mens casual shirt"
+    },
+     {
+        "id": 18,
+        "title": "Shop pet supplies"
+    },
+    {
+        "id": 19,
+        "title": "Spring sale"
+    },
+     {
+        "id": 20,
+        "title": "Echo Buds"             
+    },
+    {
+        "id": 21,
+        "title": "Family Plan: 3 months free"
     }
+  
+
+
 ]

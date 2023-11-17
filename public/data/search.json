@@ -11,7 +11,7 @@
             "avgRating": 4,
             "ratings": 24089,
             "price": 11.00,
-            "oldPrice": 22.00,
+        
             "badge": "seller"
         },
         {
@@ -24,8 +24,8 @@
             "description" : "The 2023 edition takes readers on a journey that's out of this world! ",
             "avgRating": 5,
             "ratings": 929,
-            "price": 8.50,
-            "oldPrice": 22.00,
+            "price": 800.50,
+   
             "quantity": 0,
             "badge": "choice"
         },
@@ -39,8 +39,8 @@
             "description" : "Give them the simplest cookbook ever this Christmas . . . Jamie's back to basics with over 120 simple, delicious, ONE pan recipes",
             "avgRating": 4,
             "ratings": 2993,
-            "price": 13.00,
-            "oldPrice": 23.00,
+            "price": 130.00,
+       
             "badge": "choice"
         },
         {
@@ -53,8 +53,8 @@
             "brand": "Richard Osman", 
             "avgRating": 5,
             "ratings": 29283,
-            "price": 10.00,
-            "oldPrice": 20.00
+            "price": 10.00
+      
 
         },
         {
@@ -68,7 +68,6 @@
             "avgRating": 4,
             "ratings": 885,
             "price": 10.90,
-            "oldPrice": 13.99,
             "badge": "limited"
         },
         {
@@ -82,7 +81,6 @@
             "avgRating": 4,
             "ratings": 44402,
             "price": 7.00,
-            "oldPrice": 14.99,
             "badge": "choice"
         },
         {
@@ -96,7 +94,6 @@
             "avgRating": 5,
             "ratings": 877,
             "price": 7.00,
-            "oldPrice": 14.99,
             "badge": "choice"
         },
         {
@@ -109,8 +106,7 @@
             "brand": "Bonnie Garmus", 
             "avgRating": 4,
             "ratings": 62749,
-            "price": 8.00,
-            "oldPrice": 16.99
+            "price": 8.00
         },
         {
             "id" : 8,
@@ -123,7 +119,6 @@
             "avgRating": 4,
             "ratings": 134,
             "price": 4.79,
-            "oldPrice": 6.99,
             "badge": "choice"
         },
         {
@@ -137,7 +132,6 @@
             "avgRating": 4,
             "ratings": 17602,
             "price": 34.99,
-            "oldPrice": 40.99,
             "badge": "choice"
         },
         {
@@ -150,8 +144,7 @@
             "brand": "Hugo Boss", 
             "avgRating": 3,
             "ratings": 10,
-            "price": 42.95,
-            "oldPrice": 45.00
+            "price": 42.95
         },
         {
             "id" : 11,
@@ -164,7 +157,6 @@
             "avgRating": 5,
             "ratings": 262,
             "price": 499.00,
-            "oldPrice": 549.00,
             "badge": "choice"
         },
         {
@@ -178,7 +170,6 @@
             "avgRating": 4,
             "ratings": 6283,
             "price": 34.99,
-            "oldPrice": 79.99,
             "badge": "limited"
         },
         {
@@ -192,8 +183,88 @@
             "avgRating": 5,
             "ratings": 1047,
             "price": 1039.00,
-            "oldPrice": 1099.00,
             "badge": "seller"
+        },
+        {
+            "id": 20,
+            "title": "Echo Buds",
+            "image": "../images/home_grid_7.jpg",
+            "alt": "abc",
+            "price": 5000.99,
+            "brand": "Echo Sounds", 
+            "description":"echo Air Buds Lite True Wireless in Ear Earbuds with 10H Single Charge Playtime, Gaming Mode, ENC, AAC Codec, Bluetooth 5.1, IPX4 (Black)"
+        },
+        {
+            "id": 14,
+            "title": "Newly launched exclusive offer for you",
+            "image": "../images/home_grid_1.jpg",
+            "alt": "abc",
+            "price": 34.99,
+            "description":"OnePlus 11 5G (Eternal Green, 8GB RAM, 128GB Storage),Visit the OnePlus Store",
+            "brand": "OnePlus" 
+        },
+        {
+            "id": 15,
+            "title": "Sports shoe ",
+            "image": "../images/home_grid_2.jpg",
+            "alt": "abc",
+            "price": 500.99,
+            "description":"Adidas Men's Clinch-X M Running Shoe",
+            "brand": "Adidas" 
+        },
+        {
+            "id": 16,
+            "title": "One plus new tab",
+            "image": "../images/home_grid_3.jpg",
+            "alt": "abc",
+            "price": 500.99,
+            "description":"OnePlus Pad Go 28.85cm (11.35 inch) 2.4K 7:5 Ratio ReadFit Eye Care LCD Display, Dolby Atmos Quad Speakers,Wi-Fi Only, 8GB RAM 128 GB ROM Expandable Up-to 1TB, Twin Mint Colour .. Visit the OnePlus Store",
+            "brand": "OnePlus"
+        },
+        {
+            "id": 17,
+            "title": "mens casual shirt",
+            "image": "../images/home_grid_4.jpg",
+            "alt": "abc",
+            "price": 500.99,
+            "description":"Amazon Brand - Symbol Men's Casual Shirt",
+            "brand": "Amazon" 
+        },
+        {
+            "id": 18,
+            "title": "Shop pet supplies",
+            "image": "../images/home_grid_5.jpg",
+            "alt": "abc",
+            "price": 500.99,
+            "description": "Pedigree Adult Dry Dog Food, Chicken & Vegetables, 3kg Pack",
+            "brand": "pedigree" 
+        },
+        {
+            "id": 19,
+            "title": "Spring sale",
+            "image": "../images/home_grid_6.jpg",
+            "alt": "abc",
+            "price": 300.99,
+            "description":"truke Air Buds Lite True Wireless in Ear Earbuds with 10H Single Charge Playtime, Gaming Mode, ENC, AAC Codec, Bluetooth 5.1, IPX4 (Black)",
+            "brand": "Apple"   
+        },
+        { "id": 20,
+        "title": "Echo Buds",
+        "image": "../images/home_grid_7.jpg",
+        "alt": "abc",
+        "price": 5000.99,
+        "brand": "Echo Sounds", 
+        "description":"echo Air Buds Lite True Wireless in Ear Earbuds with 10H Single Charge Playtime, Gaming Mode, ENC, AAC Codec, Bluetooth 5.1, IPX4 (Black)"
+
+        },
+        {
+            "id": 21,
+            "title": "Family Plan: 3 months free",
+            "image": "../images/home_grid_8.jpg",
+            "alt": "abc",
+            "price": 500.99,
+            "brand": "Amazon Prime", 
+            "description":"enjoy family man webseries on amazon prime subscription "
         }
     ], 
     "Computers" : [
@@ -208,7 +279,7 @@
             "avgRating": 5,
             "ratings": 262,
             "price": 499.00,
-            "oldPrice": 549.00,
+
             "badge": "choice"
         }
     ], 
@@ -224,7 +295,7 @@
             "avgRating": 4,
             "ratings": 6283,
             "price": 34.99,
-            "oldPrice": 79.99,
+
             "badge": "limited"
         },
         {
@@ -238,8 +309,17 @@
             "avgRating": 4,
             "ratings": 885,
             "price": 10.90,
-            "oldPrice": 13.99,
+   
             "badge": "limited"
+        },
+        {
+            "id": 18,
+            "title": "Shop pet supplies",
+            "image": "../images/home_grid_5.jpg",
+            "alt": "abc",
+            "price": 500.99,
+            "description": "Pedigree Adult Dry Dog Food, Chicken & Vegetables, 3kg Pack",
+            "brand": "pedigree" 
         }
     ], 
     "Amazon" : [
@@ -254,7 +334,7 @@
             "avgRating": 4,
             "ratings": 17602,
             "price": 34.99,
-            "oldPrice": 40.99,
+    
             "badge": "choice"
         }
     ], 
@@ -269,8 +349,25 @@
             "brand": "Hugo Boss", 
             "avgRating": 3,
             "ratings": 10,
-            "price": 42.95,
-            "oldPrice": 45.00
+            "price": 42.95
+        },
+        {
+            "id": 15,
+            "title": "Sports shoe ",
+            "image": "../images/home_grid_2.jpg",
+            "alt": "abc",
+            "price": 500.99,
+            "description":"Adidas Men's Clinch-X M Running Shoe",
+            "brand": "Adidas" 
+        },
+        {
+            "id": 17,
+            "title": "mens casual shirt",
+            "image": "../images/home_grid_4.jpg",
+            "alt": "abc",
+            "price": 500.99,
+            "description":"Amazon Brand - Symbol Men's Casual Shirt",
+            "brand": "Amazon" 
         }
     ], 
     "Home" : [
@@ -285,7 +382,7 @@
             "avgRating": 4,
             "ratings": 6283,
             "price": 34.99,
-            "oldPrice": 79.99,
+        
             "badge": "limited"
         }
     ], 
@@ -301,8 +398,26 @@
             "avgRating": 5,
             "ratings": 1047,
             "price": 1039.00,
-            "oldPrice": 1099.00,
+     
             "badge": "seller"
+        },
+        {
+            "id": 14,
+            "title": "Newly launched exclusive offer for you",
+            "image": "../images/home_grid_1.jpg",
+            "alt": "abc",
+            "price": 34.99,
+            "description":"OnePlus 11 5G (Eternal Green, 8GB RAM, 128GB Storage),Visit the OnePlus Store",
+            "brand": "OnePlus" 
+        },
+        {
+            "id": 16,
+            "title": "One plus new tab",
+            "image": "../images/home_grid_3.jpg",
+            "alt": "abc",
+            "price": 500.99,
+            "description":"OnePlus Pad Go 28.85cm (11.35 inch) 2.4K 7:5 Ratio ReadFit Eye Care LCD Display, Dolby Atmos Quad Speakers,Wi-Fi Only, 8GB RAM 128 GB ROM Expandable Up-to 1TB, Twin Mint Colour .. Visit the OnePlus Store",
+            "brand": "OnePlus"
         }
     ]
 }

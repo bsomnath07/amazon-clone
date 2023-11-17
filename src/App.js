@@ -13,7 +13,8 @@ import {
   Login,
   Registration,
   ReturnAndOrder,
-  Address
+  Address,
+  Protected
 } from "./components";
 const App = () => {
   // const { user, login } = useUserContext();
@@ -28,12 +29,12 @@ const App = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/registration" element={<Registration />} />
             <Route path="/search" element={<SearchResults />} />
-            <Route path="/product/:id" element={<ProductPage />} />
-            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/product/:id" element={<Protected Component={ProductPage} />} />
+            <Route path="/checkout" element={<Protected Component={Checkout}/>} />
             <Route path="/payment" element={<Payment />} />
             <Route path="/order-confirmation" element={<OrderConfirmation />} />
             <Route path="/returnandorder" element={<ReturnAndOrder/>} />
-            <Route path="/address" element={<Address/>} />
+            <Route path="/address" element={<Protected Component={Address}/>} />
           </Routes>
         </BrowserRouter>
       </UserProvider>
