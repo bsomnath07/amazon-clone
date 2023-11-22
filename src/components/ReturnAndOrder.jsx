@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import { GB_CURRENCY } from "../utils/constants";
 const ReturnAndOrder = () => {
   const [orderedProducts, setOrderedProducts] = useState([]);
 
@@ -69,8 +69,8 @@ const ReturnAndOrder = () => {
               <p className="text-sm font-semibold mb-2">
                 Quantity: {product.quantity}
               </p>
-              <p className="text-sm font-semibold mb-2">
-                Price: ${product.price.toFixed(2)}
+              <p className="text-lg font-semibold mb-2">
+                Price:{GB_CURRENCY.format(product.price.toFixed(2))}
               </p>
             </div>
           ))}
