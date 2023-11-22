@@ -19,7 +19,7 @@ export const cartSlice=createSlice({
             state.products.push({...action.payload, quantity: parseInt(action.payload.quantity)})
          }
         state.productsNumber =state.productsNumber + parseInt(action.payload.quantity)
-        localStorage.setItem('cart', JSON.stringify({ products: state.products, productsNumber: state.productsNumber }));
+        // localStorage.setItem('cart', JSON.stringify({ products: state.products, productsNumber: state.productsNumber }));
         console.log('Data being stored in localStorage:', { products: state.products, productsNumber: state.productsNumber });
         
         },
@@ -60,14 +60,25 @@ export const cartSlice=createSlice({
               itemDec.quantity--;
             }
             state.productsNumber = state.productsNumber - 1;
-            localStorage.setItem('cart', JSON.stringify({ products: state.products, productsNumber: state.productsNumber }));
+            localStorage.setItem('cart', JSON.stringify({ products: state.products, productsNumber: state.productsNumber }));          
          
           },
-          reduceCartToZero: (state) => {
-            // This action sets the cart products and productsNumber to zero
-            state.products = [];
-            state.productsNumber = 0;
-            localStorage.setItem('cart', JSON.stringify({ products: state.products, productsNumber: state.productsNumber }));
+          
+          reduceCartToZero: (state) => {      
+  const storedOldCart = localStorage.getItem('oldCart');
+  const oldCart = storedOldCart ? JSON.parse(storedOldCart) : { products: [], productsNumber: 0 };
+
+  // Append the current products to the old cart
+  oldCart.products = oldCart.products.concat(state.products);
+  oldCart.productsNumber += state.productsNumber;
+
+  // Save the updated old cart to local storage
+  localStorage.setItem('oldCart', JSON.stringify(oldCart));
+
+  // Clear the current cart in the state and local storage
+  localStorage.setItem('cart', JSON.stringify({ products: [], productsNumber: 0 }));
+  state.products = [];
+  state.productsNumber = 0;
         },
         },
 });

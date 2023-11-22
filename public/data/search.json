@@ -188,7 +188,7 @@
         {
             "id": 20,
             "title": "Echo Buds",
-            "image": "../images/home_grid_7.jpg",
+            "image": "../images/product_20.jpg",
             "alt": "abc",
             "price": 5000.99,
             "brand": "Echo Sounds", 
@@ -197,7 +197,7 @@
         {
             "id": 14,
             "title": "Newly launched exclusive offer for you",
-            "image": "../images/home_grid_1.jpg",
+            "image": "../images/product_14.jpg",
             "alt": "abc",
             "price": 34.99,
             "description":"OnePlus 11 5G (Eternal Green, 8GB RAM, 128GB Storage),Visit the OnePlus Store",
@@ -206,7 +206,7 @@
         {
             "id": 15,
             "title": "Sports shoe ",
-            "image": "../images/home_grid_2.jpg",
+            "image": "../images/product_15.jpg",
             "alt": "abc",
             "price": 500.99,
             "description":"Adidas Men's Clinch-X M Running Shoe",
@@ -215,7 +215,7 @@
         {
             "id": 16,
             "title": "One plus new tab",
-            "image": "../images/home_grid_3.jpg",
+            "image": "../images/product_16.jpg",
             "alt": "abc",
             "price": 500.99,
             "description":"OnePlus Pad Go 28.85cm (11.35 inch) 2.4K 7:5 Ratio ReadFit Eye Care LCD Display, Dolby Atmos Quad Speakers,Wi-Fi Only, 8GB RAM 128 GB ROM Expandable Up-to 1TB, Twin Mint Colour .. Visit the OnePlus Store",
@@ -224,7 +224,7 @@
         {
             "id": 17,
             "title": "mens casual shirt",
-            "image": "../images/home_grid_4.jpg",
+            "image": "../images/product_17.jpg",
             "alt": "abc",
             "price": 500.99,
             "description":"Amazon Brand - Symbol Men's Casual Shirt",
@@ -233,7 +233,7 @@
         {
             "id": 18,
             "title": "Shop pet supplies",
-            "image": "../images/home_grid_5.jpg",
+            "image": "../images/product_18.jpg",
             "alt": "abc",
             "price": 500.99,
             "description": "Pedigree Adult Dry Dog Food, Chicken & Vegetables, 3kg Pack",
@@ -242,7 +242,7 @@
         {
             "id": 19,
             "title": "Spring sale",
-            "image": "../images/home_grid_6.jpg",
+            "image": "../images/product_19.jpg",
             "alt": "abc",
             "price": 300.99,
             "description":"truke Air Buds Lite True Wireless in Ear Earbuds with 10H Single Charge Playtime, Gaming Mode, ENC, AAC Codec, Bluetooth 5.1, IPX4 (Black)",
@@ -250,7 +250,7 @@
         },
         { "id": 20,
         "title": "Echo Buds",
-        "image": "../images/home_grid_7.jpg",
+        "image": "../images/product_20.jpg",
         "alt": "abc",
         "price": 5000.99,
         "brand": "Echo Sounds", 
@@ -260,7 +260,7 @@
         {
             "id": 21,
             "title": "Family Plan: 3 months free",
-            "image": "../images/home_grid_8.jpg",
+            "image": "../images/product_21.jpg",
             "alt": "abc",
             "price": 500.99,
             "brand": "Amazon Prime", 
@@ -315,7 +315,7 @@
         {
             "id": 18,
             "title": "Shop pet supplies",
-            "image": "../images/home_grid_5.jpg",
+            "image": "../images/product_18.jpg",
             "alt": "abc",
             "price": 500.99,
             "description": "Pedigree Adult Dry Dog Food, Chicken & Vegetables, 3kg Pack",
@@ -354,7 +354,7 @@
         {
             "id": 15,
             "title": "Sports shoe ",
-            "image": "../images/home_grid_2.jpg",
+            "image": "../images/product_15.jpg",
             "alt": "abc",
             "price": 500.99,
             "description":"Adidas Men's Clinch-X M Running Shoe",
@@ -363,7 +363,7 @@
         {
             "id": 17,
             "title": "mens casual shirt",
-            "image": "../images/home_grid_4.jpg",
+            "image": "../images/product_17.jpg",
             "alt": "abc",
             "price": 500.99,
             "description":"Amazon Brand - Symbol Men's Casual Shirt",
@@ -404,7 +404,7 @@
         {
             "id": 14,
             "title": "Newly launched exclusive offer for you",
-            "image": "../images/home_grid_1.jpg",
+            "image": "../images/product_14.jpg",
             "alt": "abc",
             "price": 34.99,
             "description":"OnePlus 11 5G (Eternal Green, 8GB RAM, 128GB Storage),Visit the OnePlus Store",
@@ -413,7 +413,7 @@
         {
             "id": 16,
             "title": "One plus new tab",
-            "image": "../images/home_grid_3.jpg",
+            "image": "../images/product_16.jpg",
             "alt": "abc",
             "price": 500.99,
             "description":"OnePlus Pad Go 28.85cm (11.35 inch) 2.4K 7:5 Ratio ReadFit Eye Care LCD Display, Dolby Atmos Quad Speakers,Wi-Fi Only, 8GB RAM 128 GB ROM Expandable Up-to 1TB, Twin Mint Colour .. Visit the OnePlus Store",

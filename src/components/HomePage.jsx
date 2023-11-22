@@ -7,49 +7,49 @@ const HomePage = () => {
     {
       id: 14,
       title: "We have a surprise for you",
-      img: "../images/home_grid_1.jpg",
+      img: "../images/product_14.jpg",
       alt: "abc",
     },
     {
       id: 15,
       title: "Mens sports shoes",
-      img: "../images/home_grid_2.jpg",
+      img: "../images/product_15.jpg",
       alt: "abc",
     },
     {
       id: 16,
       title: "Unlimited streaming",
-      img: "../images/home_grid_3.jpg",
+      img: "../images/product_16.jpg",
       alt: "abc",
     },
     {
       id: 17,
       title: "More titles to explore",
-      img: "../images/home_grid_4.jpg",
+      img: "../images/product_17.jpg",
       alt: "abc",
     },
     {
       id: 18,
       title: "Shop pet supplies",
-      img: "../images/home_grid_5.jpg",
+      img: "../images/product_18.jpg",
       alt: "abc",
     },
     {
       id: 19,
       title: "Spring sale",
-      img: "../images/home_grid_6.jpg",
+      img: "../images/product_19.jpg",
       alt: "abc",
     },
     {
       id: 20,
       title: "Echo Buds",
-      img: "../images/home_grid_7.jpg",
+      img: "../images/product_20.jpg",
       alt: "abc",
     },
     {
       id: 21,
       title: "Family Plan: 3 months free",
-      img: "../images/home_grid_8.jpg",
+      img: "../images/product_21.jpg",
       alt: "abc",
     },
   ];
@@ -65,8 +65,7 @@ const HomePage = () => {
                 title={product.title}
                 img={product.img}
                 alt={product.alt}
-              />
-            
+              />            
             </Link>
           ))}
           <div className="m-3 pt-8">

@@ -5,12 +5,15 @@ import store from "./redux/store";
 import App from "./App";
 import "./index.css";
 import { UserProvider } from "./context/UserContext";
-// const root = ReactDOM.createRoot(document.getElementById("root"));
+import { ProductProvider } from "./context/ProductContext";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
     <UserProvider>
-      <App />
+      <ProductProvider>
+        <App />
+      </ProductProvider>
     </UserProvider>
   </Provider>
 );

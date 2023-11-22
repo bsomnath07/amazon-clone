@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { UserProvider } from "./context/UserContext";
-
+import { ProductProvider } from './context/ProductContext';
 import {
   HomePage,
   NavBar,
@@ -21,7 +21,9 @@ const App = () => {
 
   return (
     <>
+
       <UserProvider>
+      <ProductProvider>
         <BrowserRouter>
           <NavBar />
           <Routes>
@@ -33,10 +35,11 @@ const App = () => {
             <Route path="/checkout" element={<Protected Component={Checkout}/>} />
             <Route path="/payment" element={<Payment />} />
             <Route path="/order-confirmation" element={<OrderConfirmation />} />
-            <Route path="/returnandorder" element={<ReturnAndOrder/>} />
+            <Route path="/returnandorder" element={<Protected Component={ReturnAndOrder}/>} />
             <Route path="/address" element={<Protected Component={Address}/>} />
           </Routes>
         </BrowserRouter>
+        </ProductProvider>
       </UserProvider>
     </>
   );

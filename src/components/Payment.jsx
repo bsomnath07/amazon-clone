@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 // import OrderConfirmation from "./OrderConfirmation";
-import { useDispatch} from "react-redux";
-import { reduceCartToZero  } from '../redux/cartSlice';
+import { useDispatch } from "react-redux";
+import { reduceCartToZero } from "../redux/cartSlice";
 
 const Payment = () => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   const [selectedPaymentMethod, setSelectedPaymentMethod] = useState("");
   const [cardInfo, setCardInfo] = useState({
     name: "",
@@ -46,7 +46,7 @@ const Payment = () => {
       });
     }
   };
-  
+
   const isCardInfoValid = cardInfo.cardNumber.replace(/-/g, "").length === 16;
 
   const isProceedToPaymentEnabled =
@@ -60,7 +60,7 @@ const Payment = () => {
       } else if (selectedPaymentMethod === "cod") {
         console.log("Cash On Delivery selected");
       }
-      dispatch(reduceCartToZero())
+      dispatch(reduceCartToZero());
       navigate("/order-confirmation");
     }
   };

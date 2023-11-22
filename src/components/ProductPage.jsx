@@ -5,7 +5,6 @@ import { ProductDetails } from "/";
 import {GB_CURRENCY } from '../utils/constants'
 import { useDispatch } from 'react-redux'
 import {addToCart} from '../redux/cartSlice'
-
 const ProductPage = () => {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
@@ -19,34 +18,22 @@ const ProductPage = () => {
       });
     };
 
-    getProduct(); // Call the function inside useEffect
+    getProduct(); 
 
   }, [id]);
 
-  // const getProduct = () => {
-  //   callAPI(`data/products.json`).then((productResults) => {
-  //     setProduct(productResults[id]);
-  //   });
 
  
 const addQuantityToProduct = () => {
   setProduct(product.quantity = quantity)
   return product;
 }
-
-// const handleAddToCart = () => {
-// const checkLoggedIn=localStorage.getItem("auth")
-//   if (checkLoggedIn) {
-//     dispatch(addToCart(addQuantityToProduct()));
-//   } else {
-//     navigate("/login"); 
-//   }
-// };
+const handleAddToCart = () => {
+  dispatch(addToCart(addQuantityToProduct()));
+  navigate("/checkout");
+};
 
 
-  // useEffect(() => {
-  //   getProduct();
-  // }, []);
   if (!product?.title) return (<h1> Loading Product ...</h1>);
 
   return (
@@ -86,7 +73,7 @@ const addQuantityToProduct = () => {
               </div>
               <div>
               <Link to={"/checkout"}>
-              <button  onClick={()=> dispatch(addToCart(addQuantityToProduct()))}  className="bg-yellow-400 p-3 text-xs xl:text-sm rounded 
+              <button  onClick={handleAddToCart}  className="bg-yellow-400 p-3 text-xs xl:text-sm rounded 
               hover:bg-yellow-500 w-auto mt-2">Add To Cart</button>
               </Link>
               </div>
